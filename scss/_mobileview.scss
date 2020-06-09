@@ -1,0 +1,39 @@
+@media ( max-width: 767px ){
+    .container{
+        width: 100%;
+    }
+    .container-box{
+        margin-top: 15px;
+        .list-category{
+            ul{
+                display: block;
+                text-align: center;
+            }
+            li{
+                margin-top: 10px;
+            }
+        }
+        .row{
+            margin-top: 15px;
+            display: block;
+            .carol{
+                margin: 10px auto;
+                width: 252px;
+                border-radius: 10px;
+                img{
+                    width: 250px;
+                }
+    
+            }
+            .arw-left{
+                display: none;
+            }
+            .arw-right{
+                display: none;
+            }
+        }
+        .vw-more{
+            margin: 25px 0;
+        }
+    }
+}

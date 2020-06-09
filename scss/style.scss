@@ -36,6 +36,7 @@ nav{
         font-size: 25px;
         background-color: $secondary-color;
         color: #fff;
+        cursor: pointer;
     }
 
     .sideway-bar{
@@ -53,6 +54,7 @@ nav{
             border-radius: 20px;
             padding: 6px 15px 6px 15px;
             margin: 0 25px ;
+            cursor: pointer;
         }
         .new-btn:hover{
             background: #777;
@@ -61,6 +63,7 @@ nav{
         .profile{
             display: flex;
             align-items: center;
+            cursor: pointer;
             h3{
                 font-size: 14px;
                 font-weight: 300;
@@ -97,15 +100,7 @@ nav{
             padding: 5px 18px;
             border-radius: 15px;
             margin: 0 2px;
-        }
-        li:hover{
-            transition: background-color 0.5s ease-in;
-            background-color: $secondary-color;
-            color: #fff;
-        }
-        li:nth-child(1){
-            background-color: $secondary-color;
-            color: #fff;
+            cursor: pointer;
         }
     }
     .row{
@@ -121,6 +116,9 @@ nav{
             border: #777 1px solid;
             border-radius: 7px;
 
+            img{
+                width: 200px;
+            }
             div{
                 margin: 15px;
                 margin-bottom: 20px;
@@ -133,9 +131,15 @@ nav{
         }
         .arw-left{
             margin-left: 30px;
+            img{
+                width: 18px;
+            }
         }
         .arw-right{
             margin-right: 30px;
+            img{
+                width: 18px;
+            }
         }
     }
     .vw-more{
@@ -148,12 +152,16 @@ nav{
             border-radius: 20px;
             color: $primary-color;
             border-style: none;
+            cursor: pointer;
         }
         .btn:hover{
-            background-color: 10% $secondary-color;
+            background-color: $secondary-color;
         }
     }
 }
 #body-height{
     height: 500px;
 }
+@import "utilities";
+@import "mobileview";
+@import "tabletview";

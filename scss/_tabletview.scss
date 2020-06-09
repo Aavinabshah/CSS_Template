@@ -1,0 +1,38 @@
+@media (min-width: 768px) and (max-width: 1200px){
+    .container{
+        width: 100%;
+    }
+    .container-box{
+        margin-top: 35px;
+        .list-category{
+            ul{
+               // display: block;
+                text-align: center;
+            }
+            li{
+                margin-top: 10px;
+            }
+        }
+        .row{
+            margin-top: 30px;
+            //display: block;
+            .carol{
+                margin: 10px auto;
+                //width: 202px;
+                img{
+                    width: 200px;
+                }
+    
+            }
+            .arw-left{
+               margin-left: 60px;
+            }
+            .arw-right{
+                margin-right: 60px;
+            }
+        }
+        .vw-more{
+            margin: 25px 0;
+        }
+    }
+}
